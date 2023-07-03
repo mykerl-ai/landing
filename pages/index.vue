@@ -3,8 +3,13 @@
     <!-- Hero section -->
     <section id="hero" class="w-full pb-8">
       <BaseSection>
-        <div class="col-span-12 lg:col-span-6 mt-12 xl:mt-10 space-y-4 sm:space-y-6 px-6 text-center sm:text-left">
-          <span data-aos="fade-right" data-aos-once="true" class="text-base text-gradient font-semibold uppercase"
+        <div
+          class="col-span-12 lg:col-span-6 mt-12 xl:mt-10 space-y-4 sm:space-y-6 px-6 text-center sm:text-left"
+        >
+          <span
+            data-aos="fade-right"
+            data-aos-once="true"
+            class="text-base text-gradient font-semibold uppercase"
             >Sign Up Today</span
           >
           <h1
@@ -14,8 +19,14 @@
           >
             <span class="text-header-gradient">Stand Out </span> from the Crowd:
           </h1>
-          <p data-aos="fade-down" data-aos-once="true" data-aos-delay="300" class="paragraph hidden sm:block">
-            Experience the next generation of resume building with our advanced AI-powered platform.
+          <p
+            data-aos="fade-down"
+            data-aos-once="true"
+            data-aos-delay="300"
+            class="paragraph hidden sm:block"
+          >
+            Experience the next generation of resume building with our advanced
+            AI-powered platform.
           </p>
           <div
             data-aos="fade-up"
@@ -108,15 +119,19 @@
     <section class="w-full mt-8">
       <BaseSection>
         <LandingBuyTradeImage class="sm:hidden mb-8" />
-        <div data-aos="fade-right" class="col-span-12 lg:col-span-6 mt-4 xl:mt-20 space-y-6 px-4">
+        <div
+          data-aos="fade-right"
+          class="col-span-12 lg:col-span-6 mt-4 xl:mt-20 space-y-6 px-4"
+        >
           <h2 class="text-4xl font-semibold sm:pr-8 xl:pr-12">
             Start Building <br class="hidden sm:block" />
             Your Winning Resume Today!
           </h2>
           <p class="paragraph">
-            Take the first step towards landing your dream job by creating a compelling resume with our user-friendly
-            platform. Our intuitive resume builder empowers you to showcase your skills, qualifications, and
-            achievements with ease.
+            Take the first step towards landing your dream job by creating a
+            compelling resume with our user-friendly platform. Our intuitive
+            resume builder empowers you to showcase your skills, qualifications,
+            and achievements with ease.
           </p>
           <!-- <div class="space-y-6 lg:pr-12">
             <LandingExchange
@@ -147,12 +162,18 @@
         <!-- <LandingBuyTradeImage class="sm:hidden mb-8" /> -->
         <EditResumeImage data-aos="fade-right" class="" />
 
-        <div data-aos="fade-left" class="col-span-12 lg:col-span-6 mt-4 xl:mt-8 space-y-6 px-4">
-          <h2 class="text-4xl font-semibold sm:pr-8 xl:pr-12">Already have a Resume?</h2>
+        <div
+          data-aos="fade-left"
+          class="col-span-12 lg:col-span-6 mt-4 xl:mt-8 space-y-6 px-4"
+        >
+          <h2 class="text-4xl font-semibold sm:pr-8 xl:pr-12">
+            Already have a Resume?
+          </h2>
           <p class="paragraph">
-            Give your existing resume a professional makeover and increase its impact with our easy-to-use editing
-            tools. Whether you need to update your work experience, refine your skills section, or reformat the layout,
-            our platform provides a seamless editing experience.
+            Give your existing resume a professional makeover and increase its
+            impact with our easy-to-use editing tools. Whether you need to
+            update your work experience, refine your skills section, or reformat
+            the layout, our platform provides a seamless editing experience.
           </p>
           <!-- <div class="space-y-6 lg:pr-12">
             <LandingExchange
@@ -178,13 +199,32 @@
     </section>
 
     <!-- Partners section -->
-    <section class="bg-partner relative max-w-full sm:mx-6 my-8 shadow sm:rounded-2xl overflow-hidden">
-      <div class="w-full px-6 sm:px-0 py-16 flex flex-col items-center justify-center space-y-4 text-center">
-        <h3 data-aos="flip-down" class="text-2xl text-neutral-800 font-semibold">Trusted Partners Worldwide</h3>
-        <p data-aos="flip-down" class="paragraph">We're partners with countless major organisations around the globe</p>
-        <div data-aos="fade-up" class="flex flex-wrap items-center justify-center">
+    <section
+      class="bg-partner relative max-w-full sm:mx-6 my-8 shadow sm:rounded-2xl overflow-hidden"
+    >
+      <div
+        class="w-full px-6 sm:px-0 py-16 flex flex-col items-center justify-center space-y-4 text-center"
+      >
+        <h3
+          data-aos="flip-down"
+          class="text-2xl text-neutral-800 font-semibold"
+        >
+          Trusted Partners Worldwide
+        </h3>
+        <p data-aos="flip-down" class="paragraph">
+          We're partners with countless major organisations around the globe
+        </p>
+        <div
+          data-aos="fade-up"
+          class="flex flex-wrap items-center justify-center"
+        >
           <LandingPartnerImage
-            v-for="img in ['clever.png', 'diamon-cutts.png', 'swiss-finance.png', 'gambio.png']"
+            v-for="img in [
+              'clever.png',
+              'diamon-cutts.png',
+              'swiss-finance.png',
+              'gambio.png',
+            ]"
             :key="img"
             :img="img"
           />
@@ -219,10 +259,17 @@
     </section> -->
 
     <!-- Advanced trading tools section -->
-    <section class="bg-trading-tools relative max-w-full sm:mx-4 my-20 py-16 shadow rounded-2xl overflow-hidden">
-      <div class="relative max-w-screen-xl px-4 sm:px-2 mx-auto grid grid-cols-12 gap-x-6">
+    <section
+      class="bg-trading-tools relative max-w-full sm:mx-4 my-20 py-16 shadow rounded-2xl overflow-hidden"
+    >
+      <div
+        class="relative max-w-screen-xl px-4 sm:px-2 mx-auto grid grid-cols-12 gap-x-6"
+      >
         <LandingTradingToolImage class="sm:hidden" />
-        <div data-aos="fade-right" class="col-span-12 lg:col-span-6 space-y-8 sm:space-y-6 px-4 sm:px-6 mt-8">
+        <div
+          data-aos="fade-right"
+          class="col-span-12 lg:col-span-6 space-y-8 sm:space-y-6 px-4 sm:px-6 mt-8"
+        >
           <h2 class="text-4xl font-semibold">
             Advanced Resume Builder Empowered by
 
@@ -231,27 +278,34 @@
           <div class="space-y-2">
             <h4 class="text-lg font-medium">Unleash the Power of AI .</h4>
             <p class="paragraph text-sm xl:text-base">
-              Our AI algorithms analyze your skills, experiences, and qualifications to provide personalized suggestions
-              and optimize your resume's content, format, and keywords. With AI guidance, you can create a standout
-              resume that catches the attention of employers
+              Our AI algorithms analyze your skills, experiences, and
+              qualifications to provide personalized suggestions and optimize
+              your resume's content, format, and keywords. With AI guidance, you
+              can create a standout resume that catches the attention of
+              employers
             </p>
           </div>
           <div class="space-y-2">
-            <h4 class="text-lg font-medium">Professional Access and Non-stop Availability</h4>
+            <h4 class="text-lg font-medium">
+              Professional Access and Non-stop Availability
+            </h4>
             <p class="paragraph text-sm xl:text-base">
-              We offer premium access to our resume builder, catering to both individuals and institutions. With high
-              availability and seamless performance, you can create or edit your resume anytime, anywhere. Our platform
-              ensures that you have the tools and resources at your fingertips to make a lasting impression on potential
-              employers.
+              We offer premium access to our resume builder, catering to both
+              individuals and institutions. With high availability and seamless
+              performance, you can create or edit your resume anytime, anywhere.
+              Our platform ensures that you have the tools and resources at your
+              fingertips to make a lasting impression on potential employers.
             </p>
           </div>
           <div class="space-y-2">
             <h4 class="text-lg font-medium">Dedicated Customer Support</h4>
             <p class="paragraph text-sm xl:text-base">
-              We understand the importance of exceptional customer support. Our team of professionals is available
-              around the clock to assist you with any questions or concerns you may have. Whether you need guidance on
-              optimizing your resume or technical assistance, our dedicated support staff is here to provide timely and
-              personalized help.
+              We understand the importance of exceptional customer support. Our
+              team of professionals is available around the clock to assist you
+              with any questions or concerns you may have. Whether you need
+              guidance on optimizing your resume or technical assistance, our
+              dedicated support staff is here to provide timely and personalized
+              help.
             </p>
           </div>
           <div class="flex flex-col sm:flex-row">
@@ -261,7 +315,9 @@
             >
               Get Started
             </BaseButton>
-            <BaseButton class="bg-inherit text-[#4A8FF6] px-10 py-4 text-center underline rounded-full">
+            <BaseButton
+              class="bg-inherit text-[#4A8FF6] px-10 py-4 text-center underline rounded-full"
+            >
               Learn More
             </BaseButton>
           </div>
@@ -306,9 +362,14 @@
     </section> -->
 
     <!-- Getting started section -->
-    <section class="bg-trading-tools relative max-w-full sm:mx-4 xl:mx-10 my-24 shadow sm:rounded-2xl overflow-hidden">
+    <section
+      class="bg-trading-tools relative max-w-full sm:mx-4 xl:mx-10 my-24 shadow sm:rounded-2xl overflow-hidden"
+    >
       <div class="w-full py-16 flex flex-col items-center">
-        <h2 data-aos="flip-down" class="text-3xl sm:text-4xl font-semibold text-center">
+        <h2
+          data-aos="flip-down"
+          class="text-3xl sm:text-4xl font-semibold text-center"
+        >
           Get started in just a few minutes
         </h2>
         <div
@@ -333,17 +394,38 @@
     <!-- FAQ section -->
     <section class="w-full my-24">
       <BaseSection>
-        <div data-aos="fade-right" data-aos-delay="150" class="col-span-12 lg:col-span-6">
+        <div
+          data-aos="fade-right"
+          data-aos-delay="150"
+          class="col-span-12 lg:col-span-6"
+        >
           <div class="w-full">
-            <img :src="require('~/assets/img/question.png')" class="w-full" alt="" />
+            <img
+              :src="require('~/assets/img/question.png')"
+              class="w-full"
+              alt=""
+            />
           </div>
         </div>
-        <div data-aos="fade-left" data-aos-delay="150" class="col-span-12 lg:col-span-6 px-4 sm:px-6 mt-8">
-          <span class="text-base text-gradient font-semibold uppercase mb-4 sm:mb-2">Support</span>
-          <h2 class="text-3xl sm:text-4xl font-semibold mb-10 sm:mb-6">Frequently asked questions</h2>
+        <div
+          data-aos="fade-left"
+          data-aos-delay="150"
+          class="col-span-12 lg:col-span-6 px-4 sm:px-6 mt-8"
+        >
+          <span
+            class="text-base text-gradient font-semibold uppercase mb-4 sm:mb-2"
+            >Support</span
+          >
+          <h2 class="text-3xl sm:text-4xl font-semibold mb-10 sm:mb-6">
+            Frequently asked questions
+          </h2>
 
           <ul class="shadow-box">
-            <BaseAccordion v-for="(accordion, index) in accordions" :key="index" :accordion="accordion" />
+            <BaseAccordion
+              v-for="(accordion, index) in accordions"
+              :key="index"
+              :accordion="accordion"
+            />
           </ul>
         </div>
       </BaseSection>
@@ -365,11 +447,11 @@
 </template>
 
 <script>
-import EditResumeImage from '../components/landing/EditResumeImage.vue'
+import EditResumeImage from "../components/landing/EditResumeImage.vue";
 
-import aosMixin from '@/mixins/aos'
+import aosMixin from "@/mixins/aos";
 export default {
-  name: 'IndexPage',
+  name: "IndexPage",
   components: { EditResumeImage },
 
   mixins: [aosMixin],
@@ -379,55 +461,55 @@ export default {
       dropdownConcurency: false,
       dropdownCrypto: false,
       currencySelected: {
-        img: 'country-icon/eng.png',
-        name: 'USD',
+        img: "country-icon/eng.png",
+        name: "USD",
       },
       currencies: [
         {
-          img: 'country-icon/eng.png',
-          name: 'USD',
+          img: "country-icon/eng.png",
+          name: "USD",
         },
       ],
       cryptoSelected: {
-        img: 'crypto-icon/bitcoin.png',
-        name: 'BTC',
+        img: "crypto-icon/bitcoin.png",
+        name: "BTC",
       },
       cryptocurrencies: [
         {
-          img: 'crypto-icon/bitcoin.png',
-          name: 'BTC',
+          img: "crypto-icon/bitcoin.png",
+          name: "BTC",
         },
       ],
       trendings: [
         {
           id: 1,
-          name: 'Bitcoin',
+          name: "Bitcoin",
           price: 43180.13,
-          logo: 'bitcoin.png',
+          logo: "bitcoin.png",
           increase: true,
           data: [40, 35, 60, 75, 60, 75, 50],
         },
         {
           id: 2,
-          name: 'Ethereum',
+          name: "Ethereum",
           price: 3480.65,
-          logo: 'ethereum.png',
+          logo: "ethereum.png",
           increase: false,
           data: [25, 30, 60, 50, 80, 55, 80],
         },
         {
           id: 3,
-          name: 'Solana',
+          name: "Solana",
           price: 150.2,
-          logo: 'solana.png',
+          logo: "solana.png",
           increase: true,
           data: [40, 45, 40, 80, 50, 60, 35],
         },
         {
           id: 4,
-          name: 'Dogecoin',
+          name: "Dogecoin",
           price: 0.1572,
-          logo: 'dogecoin.png',
+          logo: "dogecoin.png",
           increase: true,
           data: [35, 70, 60, 80, 50, 60, 40],
         },
@@ -435,33 +517,33 @@ export default {
       topGainers: [
         {
           id: 1,
-          name: 'PAPPAY',
+          name: "PAPPAY",
           price: 0.00374,
-          logo: 'pappay.png',
+          logo: "pappay.png",
           increase: true,
           data: [30, 50, 45, 60, 70, 40, 45],
         },
         {
           id: 2,
-          name: 'Bitcoin Asia',
+          name: "Bitcoin Asia",
           price: 0.02096,
-          logo: 'bitcoin-asia.png',
+          logo: "bitcoin-asia.png",
           increase: true,
           data: [25, 60, 50, 60, 35, 50, 70],
         },
         {
           id: 3,
-          name: 'MoonRock',
+          name: "MoonRock",
           price: 0.004907,
-          logo: 'moonrock.png',
+          logo: "moonrock.png",
           increase: true,
           data: [40, 35, 40, 25, 50, 70, 45],
         },
         {
           id: 4,
-          name: 'NinjaFloki',
+          name: "NinjaFloki",
           price: 0.000123,
-          logo: 'ninjafloki.png',
+          logo: "ninjafloki.png",
           increase: true,
           data: [45, 35, 40, 30, 25, 45, 35],
         },
@@ -469,96 +551,106 @@ export default {
       recents: [
         {
           id: 1,
-          name: 'MetaCraft',
+          name: "MetaCraft",
           price: 0.0608,
-          logo: 'metacraft.png',
+          logo: "metacraft.png",
           increase: false,
           data: [40, 50, 45, 60, 35, 40, 45],
         },
         {
           id: 2,
-          name: 'Frog',
+          name: "Frog",
           price: 0.5875,
-          logo: 'frog.png',
+          logo: "frog.png",
           increase: false,
           data: [25, 50, 45, 48, 40, 60, 45],
         },
         {
           id: 3,
-          name: 'Musk Doge',
+          name: "Musk Doge",
           price: 0.04041,
-          logo: 'musk-doge.png',
+          logo: "musk-doge.png",
           increase: true,
           data: [25, 35, 60, 45, 50, 45, 45],
         },
         {
           id: 4,
-          name: '2SHARE',
+          name: "2SHARE",
           price: 1366.24,
-          logo: '2share.png',
+          logo: "2share.png",
           increase: true,
           data: [35, 30, 60, 50, 35, 45, 40],
         },
       ],
       accordions: [
         {
-          title: 'How does the AI-powered resume builder enhance my resume?',
+          title: "How does the AI-powered resume builder enhance my resume?",
           description:
             "Our AI-powered resume builder utilizes advanced algorithms to analyze your skills, experiences, and qualifications. It provides personalized suggestions to optimize your resume's content, format, and keywords. This ensures that your resume stands out and effectively highlights your strengths, increasing your chances of getting noticed by employers.",
         },
         {
-          title: 'Will my personal information be secure when using the AI-powered resume builder?',
+          title:
+            "Will my personal information be secure when using the AI-powered resume builder?",
           description:
-            'We prioritize the security and privacy of our users. Your personal information is treated with the utmost confidentiality and protected through advanced security measures. Rest assured that your data is stored securely and handled in compliance with the highest industry standards.',
+            "We prioritize the security and privacy of our users. Your personal information is treated with the utmost confidentiality and protected through advanced security measures. Rest assured that your data is stored securely and handled in compliance with the highest industry standards.",
         },
         {
-          title: 'Can I access the AI-powered resume builder on multiple devices?',
+          title:
+            "Can I access the AI-powered resume builder on multiple devices?",
           description:
-            'Yes! Our resume builder is designed to be accessible from various devices, including desktops, laptops, tablets, and mobile phones. You can seamlessly switch between devices and continue working on your resume from anywhere at any time. All your progress and changes will be saved automatically, ensuring a smooth and uninterrupted resume building experience.',
+            "Yes! Our resume builder is designed to be accessible from various devices, including desktops, laptops, tablets, and mobile phones. You can seamlessly switch between devices and continue working on your resume from anywhere at any time. All your progress and changes will be saved automatically, ensuring a smooth and uninterrupted resume building experience.",
         },
         {
-          title: 'Can I customize the resume templates provided by the AI-powered builder?',
+          title:
+            "Can I customize the resume templates provided by the AI-powered builder?",
           description:
-            'Absolutely! While our AI-powered resume builder offers pre-designed templates to choose from, you have full customization control. You can modify the layout, fonts, colors, and sections to create a resume that aligns with your personal brand and showcases your unique professional identity.',
+            "Absolutely! While our AI-powered resume builder offers pre-designed templates to choose from, you have full customization control. You can modify the layout, fonts, colors, and sections to create a resume that aligns with your personal brand and showcases your unique professional identity.",
         },
       ],
       steps: [
         {
-          img: 'login.png',
-          title: 'Sign Up',
+          img: "login.png",
+          title: "Sign Up",
           description:
-            'Start your journey towards a professional and impactful resume by signing up for our platform. ',
+            "Start your journey towards a professional and impactful resume by signing up for our platform. ",
         },
         {
-          img: 'create.png',
-          title: 'Build Resume',
-          description: "Once you've signed up, dive into our intuitive resume builder.",
+          img: "create.png",
+          title: "Build Resume",
+          description:
+            "Once you've signed up, dive into our intuitive resume builder.",
         },
         {
-          img: 'download.png',
-          title: 'Download',
+          img: "download.png",
+          title: "Download",
           description:
             "When you're satisfied with your resume, it's time to download and share it with potential employers.",
         },
       ],
-    }
+    };
   },
-}
+};
 </script>
 <style scoped>
 .text-header-gradient {
   background: rgb(57, 132, 244);
-  background: linear-gradient(169.4deg, #3984f4 -6.01%, #0cd3ff 36.87%, #2f7cf0 78.04%, #0e65e8 103.77%);
+  background: linear-gradient(
+    169.4deg,
+    #3984f4 -6.01%,
+    #0cd3ff 36.87%,
+    #2f7cf0 78.04%,
+    #0e65e8 103.77%
+  );
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .bg-partner {
-  background: url('../assets/img/partner/background.png');
+  background: url("../assets/img/partner/background.png");
   background-size: cover;
   background-position: center;
 }
 .bg-trading-tools {
-  background: url('../assets/img/bg-trading-tools.webp');
+  background: url("../assets/img/bg-trading-tools.webp");
   background-size: cover;
   background-position: center;
 }

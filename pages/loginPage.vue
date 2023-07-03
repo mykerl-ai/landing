@@ -88,11 +88,11 @@
 </template>
 
 <script>
-import LoginComp from '../components/LoginComp.vue'
+import LoginComp from "../components/LoginComp.vue";
 
-import aosMixin from '@/mixins/aos'
+import aosMixin from "@/mixins/aos";
 export default {
-  name: 'IndexPage',
+  name: "IndexPage",
   components: { LoginComp },
 
   mixins: [aosMixin],
@@ -102,27 +102,33 @@ export default {
       dropdownConcurency: false,
       dropdownCrypto: false,
       currencySelected: {
-        img: 'country-icon/eng.png',
-        name: 'USD',
+        img: "country-icon/eng.png",
+        name: "USD",
       },
-    }
+    };
   },
-}
+};
 </script>
 <style scoped>
 .text-header-gradient {
   background: rgb(57, 132, 244);
-  background: linear-gradient(169.4deg, #3984f4 -6.01%, #0cd3ff 36.87%, #2f7cf0 78.04%, #0e65e8 103.77%);
+  background: linear-gradient(
+    169.4deg,
+    #3984f4 -6.01%,
+    #0cd3ff 36.87%,
+    #2f7cf0 78.04%,
+    #0e65e8 103.77%
+  );
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .bg-partner {
-  background: url('../assets/img/partner/background.png');
+  background: url("../assets/img/partner/background.png");
   background-size: cover;
   background-position: center;
 }
 .bg-trading-tools {
-  background: url('../assets/img/bg-trading-tools.webp');
+  background: url("../assets/img/bg-trading-tools.webp");
   background-size: cover;
   background-position: center;
 }
